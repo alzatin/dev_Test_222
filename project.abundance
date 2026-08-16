@@ -98,84 +98,15 @@
         },
         {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": "rectangle-100-100",
-            "dimension": "2D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "ioValue": null
         },
         {
           "name": "Shape 2",
-          "ioValue": {
-            "geometry": "move-rectangle-10-10-0-0-0",
-            "dimension": "2D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                50
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "ioValue": null
         },
         {
           "name": "Shape 3",
-          "ioValue": {
-            "geometry": "move-rectangle-30-30-0-0-0",
-            "dimension": "2D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                200
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "ioValue": null
         },
         {
           "name": "Shape 4",
@@ -224,8 +155,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "Speed",
@@ -284,8 +214,7 @@
         },
         {
           "name": "height",
-          "ioValue": 300,
-          "currentEquation": "300"
+          "ioValue": 300
         }
       ]
     },
