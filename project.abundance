@@ -76,8 +76,8 @@
     },
     {
       "atomType": "Loft",
-      "x": 0.5239551478083588,
-      "y": 0.5727554179566564,
+      "x": 0.5566433566433566,
+      "y": 0.4922600619195046,
       "uniqueID": "id-7644",
       "ioValues": [
         {
@@ -98,15 +98,84 @@
         },
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "rectangle-100-100",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         },
         {
           "name": "Shape 2",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-rectangle-10-10-0-0-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                50
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         },
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "move-rectangle-30-30-0-0-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                200
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         },
         {
           "name": "Shape 4",
@@ -155,7 +224,8 @@
         },
         {
           "name": "Passes",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         },
         {
           "name": "Speed",
@@ -214,14 +284,15 @@
         },
         {
           "name": "height",
-          "ioValue": 300
+          "ioValue": 300,
+          "currentEquation": "300"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.6493374108053007,
-      "y": 0.25386996904024767,
+      "x": 0.641958041958042,
+      "y": 0.24767801857585142,
       "uniqueID": "id-7704",
       "ioValues": [
         {
